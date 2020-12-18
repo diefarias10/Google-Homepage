@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+
+.menu{
+    display: block;
+    width: 500px;
+}
+
+.menu li a {
+    display: block;
+    text-decoration: none;
+}
+
+.btnLogin {
+    background-color: #4285F4;
+    border: none;
+    border-radius: 4px;
+}
