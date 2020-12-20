@@ -1,21 +1,108 @@
+
+html{
+    height: 100%;
+    
+}
+
 body {
     font-family: Arial, sans-serif;
+   height: 100%;
+   padding: 0;
+    margin: 0;
 }
 
 
+.nav {
+    width: 100%;
+}
 
 .menu{
-    display: block;
-    width: 500px;
+    float: right;
+    text-align: end;
+    margin-right: 20px;
+    width: 100%;
+    margin-bottom: 200px;
+    
 }
 
-.menu li a {
-    display: block;
+li {
+    display: inline-block;
+}
+a {
     text-decoration: none;
+    font-size: 13px;
+    color: rgba(0,0,0,0.87);
+    margin-right: 10px;
 }
-
 .btnLogin {
     background-color: #4285F4;
     border: none;
     border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    padding: 6px 20px;
+}
+
+.btnLogin:hover {
+    box-shadow: 1px 1px 3px grey;
+}
+
+main {
+    text-align: center;
+}
+
+.doodle {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.doodle img {
+    margin: auto;
+}
+
+.search {
+    text-align:center;
+    height: 50px;
+}
+.search input{
+    width: 30%;
+    border: 1px solid lightgray;
+    border-radius: 24px;
+    display: inline-block;
+    height: 40px;
+    padding: 0 15px;
+}
+
+.search input:hover {
+    box-shadow: 1px 1px 3px grey;
+}
+
+.buttons{
+    text-align: center;
+}
+
+.buttons input {
+    background-color: #f8f9fa;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 30px 5px; 
+}
+
+.buttons input:hover {
+    box-shadow: 1px 1px 3px grey;
+}
+
+.footer {
+    background-color: #eeeeee;
+    width: 100%;
+    border-top: solid 1px #8888883f;
+    position: fixed;
+    bottom: 0;
+}
+
+.footer a{
+    display: block;
+    margin-right: 20px;
 }
